@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        int startbalance = 100;
-        int bonuspercent;
+        int startBalance = 100;
+        int bonusPercent;
         int refill = 1100;
         if (refill >= 1100) {
-            bonuspercent = 1;
+            bonusPercent = 1;
         } else {
-            bonuspercent = 0;
+            bonusPercent = 0;
         }
-        int totalbalance = startbalance + refill + refill * bonuspercent / 100;
+        int totalbalance = startBalance + refill + refill * bonusPercent / 100;
         System.out.println(totalbalance);
     }
 }
