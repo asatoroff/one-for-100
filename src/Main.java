@@ -8,7 +8,7 @@ public class Main {
         } else {
             bonusPercent = 0;
         }
-        int totalbalance = startBalance + refill + refill * bonusPercent / 100;
-        System.out.println(totalbalance);
+        int totalBalance = startBalance + refill + refill * bonusPercent / 100;
+        System.out.println(totalBalance);
     }
 }
